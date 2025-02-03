@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  angular-app:
+    image: ecommerce-qa-test
+    build: .
+    ports:
+      - "4200:80"
